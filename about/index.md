@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hyun-Jic Oh
+title: Bio
 tags: [about, Jekyll, theme, moon]
 # date: 2022-05-05
 comments: false
