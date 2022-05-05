@@ -10,18 +10,18 @@ comments: false
 * I am a Ph.D. student in Computer Science and Engineering at Korea University, working with Dr. Won-Ki Jeong.
 
 ## Education & Experience
-* <strong>Korea University, Seoul, South Korea</strong>
-* Ph.D. Candidate in Computer Science and Engineering (Mar.2021 - Present)
-* B.S. in Biomedical Engineering (Mar.2014 - Feb.2021)
+- <strong>Korea University, Seoul, South Korea</strong>
+    - Ph.D. Candidate in Computer Science and Engineering (Mar.2021 - Present)
+    - B.S. in Biomedical Engineering (Mar.2014 - Feb.2021)
 
-* <strong>Study Abroad</strong>
-* <strong>Chapman University</strong>, California, United States (Spring 2020)
-* <strong>East China Normal University</strong>, Shanghai, China (Summer 2016)
+- <strong>Study Abroad</strong>
+    - <strong>Chapman University</strong>, California, United States (Spring 2020)
+    - <strong>East China Normal University</strong>, Shanghai, China (Summer 2016)
 
 ## Publications
-* <strong>Scribble-Supervised Cell Segmentation using Multiscale contrastive Regularization</strong>
-* <ins>Hyun-Jic Oh<ins>, Kanggeun Lee, and Won-Ki Jeong
-* <em>IEEE 19th International Symposium on Biomedical Imaging (ISBI), 2022</em>
+<strong>Scribble-Supervised Cell Segmentation using Multiscale contrastive Regularization</strong>
+<ins>Hyun-Jic Oh<ins>, Kanggeun Lee, and Won-Ki Jeong
+<em>IEEE 19th International Symposium on Biomedical Imaging (ISBI), 2022</em>
 
 
 <!-- <center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center> -->
