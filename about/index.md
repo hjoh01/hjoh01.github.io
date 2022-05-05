@@ -20,7 +20,7 @@ comments: false
 
 ## Publications
 <strong>Scribble-Supervised Cell Segmentation using Multiscale contrastive Regularization</strong>
-<ins>Hyun-Jic Oh<ins>, Kanggeun Lee, and Won-Ki Jeong
+<ins>Hyun-Jic Oh</ins>, Kanggeun Lee, and Won-Ki Jeong
 <em>IEEE 19th International Symposium on Biomedical Imaging (ISBI), 2022</em>
 
 
