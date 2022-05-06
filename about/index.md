@@ -23,7 +23,7 @@ comments: false
 - Biomedical Signals and Systems (Spring 2019)
 
 ## Publications
-<strong>Scribble-Supervised Cell Segmentation using Multiscale contrastive Regularization</strong>  
+<strong>Scribble-Supervised Cell Segmentation using Multiscale Contrastive Regularization</strong>  
 <ins>Hyun-Jic Oh</ins>, Kanggeun Lee, and Won-Ki Jeong
 <em>IEEE 19th International Symposium on Biomedical Imaging (ISBI), 2022</em>
 
