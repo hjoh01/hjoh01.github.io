@@ -9,14 +9,18 @@ comments: false
 ## Hello, I am Hyun-Jic Oh
 * I am a Ph.D. student in Computer Science and Engineering at Korea University, working with Dr. Won-Ki Jeong.
 
-## Education & Experience
-- <strong>Korea University, Seoul, South Korea</strong>
-    - Ph.D. Candidate in Computer Science and Engineering (Mar.2021 - Present)
-    - B.S. in Biomedical Engineering (Mar.2014 - Feb.2021)
+## Education
+- Ph.D. in Computer Science & Engineering, Korea University, Seoul, Korea (Mar.2021 - Present)
+- B.S. in Biomedical Engineering, Korea University, Seoul, Korea (2021)
 
-- <strong>Study Abroad</strong>
-    - <strong>Chapman University</strong>, California, United States (Spring 2020)
-    - <strong>East China Normal University</strong>, Shanghai, China (Summer 2016)
+## Experience
+- Study Abroad
+    - Chapman University, California, United States (Spring 2020)
+    - East China Normal University, Shanghai, China (Summer 2016)
+
+## Teaching Assistant
+- Data Structure (Spring, Fall 2021 and Spring 2022)
+- Biomedical Signals and Systems (Spring 2019)
 
 ## Publications
 <strong>Scribble-Supervised Cell Segmentation using Multiscale contrastive Regularization</strong>  
