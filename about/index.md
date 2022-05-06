@@ -14,6 +14,9 @@ comments: false
 - B.S. in Biomedical Engineering, Korea University, Seoul, Korea (2021)
 
 ## Experience
+- Research
+    - High-Performance Visual Computing Lab @ Korea Univ. (Aug.2020 - Present)
+    - Medical Information Processing Lab @ Korea Univ. (Spring 2019)
 - Study Abroad
     - Chapman University, California, United States (Spring 2020)
     - East China Normal University, Shanghai, China (Summer 2016)
@@ -22,11 +25,15 @@ comments: false
 - Data Structure (Spring, Fall 2021 and Spring 2022)
 - Biomedical Signals and Systems (Spring 2019)
 
+## Skills
+* <strong>Programming</strong> Python, Matlab, C++, C
+* <strong>Framework</strong> PyTorch
+* <strong>Language</strong> Korean, English, Chinese
+
 ## Publications
 <strong>Scribble-Supervised Cell Segmentation using Multiscale Contrastive Regularization</strong>  
 <ins>Hyun-Jic Oh</ins>, Kanggeun Lee, and Won-Ki Jeong
 <em>IEEE 19th International Symposium on Biomedical Imaging (ISBI), 2022</em>
-
 
 <!-- <center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center> -->
 
