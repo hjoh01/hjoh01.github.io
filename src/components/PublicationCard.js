@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import Animate from '../components/Animate';
 import { useThemeContext } from '../contexts/ThemeContext';
 
-const me = 'Chunggi Lee';
+const me = 'Hyun-Jic Oh';
 
 const makeTitle = (author, isLight, primary, secondary) => {
   const words = author.split(me);

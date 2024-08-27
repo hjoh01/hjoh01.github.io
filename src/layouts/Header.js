@@ -80,7 +80,7 @@ const Header = () => {
         <Typography variant={'h5'} sx={{ fontWeight: 600 }}>
           <div className="logo">
             <Link to="/" replace={pathname === '/'}>
-              Chunggi Lee
+              Hyun-Jic Oh
             </Link>
           </div>
         </Typography>
