@@ -17,13 +17,12 @@ const Educations = [
   }
 ];
 
-// const Experiences = [
-//   {
-//     title: 'Military Service',
-//     // content: 'AI Applied Researcher, 2022~ \n (Alternative Military Service)',
-//     content: 'Auxiliary Police, 2016~2018',
-//   }
-// ];
+const Experiences = [
+  {
+    title: 'Harvard VCG',
+    content: 'Visiting Scholar, 03.2024~03.2025',
+  }
+];
 
 const ProfileText = ({ text, size }) => {
   return (
@@ -101,16 +100,16 @@ const AboutPage = forwardRef((props, ref) => {
                   ))}
                 </Box>
               </Animate>
-              {/* <Animate delay={0.6}>
+              {<Animate delay={0.6}>
                 <Box>
                   <Typography marginTop={2} variant="h5">
-                    Work Experiences
+                    Experiences
                   </Typography>
                   {Experiences.map((elem) => (
                     <ExperienceItem type={'COMPANY'} title={elem['title']} content={elem['content']}></ExperienceItem>
                   ))}
                 </Box>
-              </Animate> */}
+              </Animate>}
             </Box>
           </Grid>
         </Grid>
