@@ -9,104 +9,83 @@ import CIKM2020 from '../assets/images/CIKM2020.png';
 import TVCG2019 from '../assets/images/TVCG2019.png';
 import MCV2018 from '../assets/images/MCV2018.png';
 import GenomeAnalysis2018 from '../assets/images/GenomeAnalysis2018.png';
-
 import TVCG2019PDF from '../assets/pdfs/TVCG2019.pdf';
+
+import ISBI2022 from '../assets/images/ISBI2022.png';
+import TVCG2023 from '../assets/images/TVCG2023.png';
+import MICCAI2023 from '../assets/images/MICCAI2023.png';
+import MICCAIW2023 from '../assets/images/MICCAIW2023.png';
+import MICCAI2024 from '../assets/images/MICCAI2024.png';
+import ECCV2024 from '../assets/images/ECCV2024.png';
 
 const pubs = [
   {
-    title: 'Sportify: Question Answering with Embedded Visualizations and Personified Narratives for Sports Video.',
-    author: 'Chunggi Lee, Tica Lin, Hanspeter Pfister, Chen Zhu-Tian',
-    conference: 'IEEE Transactions on Visualization and Computer Graphics (IEEE VIS).',
-    image: VIS2024,
-    tags: [{ tag: 'TBA ', link: '' }],
-  },
-  {
-    title: 'DreamStyler: Paint by Style Inversion with Text-to-Image Diffusion Models.',
-    author: 'Namhyuk Ahn, Junsoo Lee, Chunggi Lee, Kunhee Kim, Daesik Kim, Seung-Hun Nam, Kibeom Hong',
-    conference: 'The Association for the Advancement of Artificial Intelligence (AAAI), 2024, Accepted',
-    image: AAAI2024,
-    tags: [{ tag: '[PDF]', link: 'https://arxiv.org/pdf/2309.06933.pdf' }],
-  },
-  {
-    title:
-      'FlatGAN: A Holistic Approach for Robust Flat-Coloring in High-Definition with Understanding Line Discontinuity.',
-    author: 'Han Kim*, Chunggi Lee*, Junsoo Lee*, Dohyun Kim, Kwangjin Lee, Moohyun Oh, Daesik Kim',
-    conference: 'ACM Multimedia (MM), 2023, Accepted',
-    image: MM2023,
-    tags: [{ tag: '[PDF]', link: 'https://dl.acm.org/doi/10.1145/3581783.3613788' }],
-  },
-  {
-    title: 'TILDE-Q: A Transformation Invariant Loss Function for Time-Series Forecasting.',
-    author: 'Hyunwook Lee, Chunggi Lee, Hongkyu Lim, Sungahn Ko',
-    conference: 'Preprint',
-    image: TILDEQ,
-    tags: [{ tag: '[PDF]', link: 'https://arxiv.org/abs/2210.15050' }],
-  },
-  {
-    title: 'Variability Matters : Evaluating inter-rater variability in histopathology for robust cell detection.',
-    author: 'Cholmin Kang, Chunggi Lee, Heon Song, Minuk Ma, S ́ergioPereira',
-    conference: 'European Conference on Computer Vision Workshop (ECCVW), 2022, Accepted ',
-    image: ECCVW2022,
-    tags: [{ tag: '[PDF]', link: 'https://arxiv.org/abs/2210.05175' }],
-  },
-  {
-    title: 'Interactive Multi-Class Tiny-Object Detection.',
+    title: 'Co‑synthesis of Histopathology Nuclei Image‑Label Pairs using a Context‑Conditioned Joint Diffusion Model',
     author:
-      'Chunggi Lee, Seonwook Park, Heon Song, Jeongun Ryu, Sanghoon Kim, Haejoon Kim, Sergio Pereira, Donggeun Yoo',
-    conference: 'IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022, Accepted ',
-    image: CVPR2022,
+      '*Seonghui Min, *Hyun-Jic Oh, Won-Ki Jeong',
+    conference: 'IEEE European Conference on Computer Vision (ECCV), 2024, Accepted ',
+    image: ECCV2024,
     tags: [
-      { tag: '[PDF]', link: 'https://arxiv.org/abs/2203.15266' },
-      { tag: '[Video]', link: 'https://vimeo.com/700148797' },
+      { tag: '[PDF]', link: 'https://arxiv.org/abs/2407.14434' },
+      { tag: '[Video]', link: 'https://www.youtube.com/watch?v=_CWxR9CXjM8' },
       { tag: '[Github]', link: 'https://github.com/ChungYi347/Interactive-Multi-Class-Tiny-Object-Detection' },
     ],
   },
   {
-    title: 'GUIComp: A GUI Design Assistant with Real-Time, Multi-Faceted Feedback.',
-    author: 'Chunggi Lee, Sanghoon Kim, Dongyun Han, Hongjun Yang, Young-Woo Park, Bum Chul Kwon, Sungahn Ko',
-    conference: 'ACM CHI Conference on Human Factors in Computing Systems (CHI), 2020, Accepted',
-    image: CHI2020,
+    title: 'Controllable and Efficient Multi‑Class Pathology Nuclei Data Augmentation using Text‑Conditioned Diffusion Models',
+    author:
+      'Hyun-Jic Oh, Won-Ki Jeong',
+    conference: 'International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024, Accepted ',
+    image: MICCAI2024,
     tags: [
-      { tag: '[PDF]', link: 'https://arxiv.org/abs/2001.05684' },
-      { tag: '[Preview Video]', link: 'https://www.youtube.com/watch?v=UkqTStZEVbo' },
-      { tag: '[Video]', link: 'https://vimeo.com/700148306' },
+      { tag: '[PDF]', link: 'https://arxiv.org/abs/2407.14426' },
+      { tag: '[Github]', link: 'https://github.com/hvcl/ConNucDA' },
     ],
   },
   {
-    title: 'STGRAT: A Spatio-Temporal Graph Attention Network for Traffic Forecasting',
-    author: 'Cheonbok Park,  Chunggi Lee, Hyojin Bahng, Taeyun Won, Kihwan Kim, Seungmin Jin, Sungahn Ko, Jaegul Choo',
-    conference: 'ACM International Conference on Information and Knowledge Management (CIKM), 2020, Accepted',
-    image: CIKM2020,
-    tags: [{ tag: '[PDF]', link: 'https://arxiv.org/abs/1911.13181' }],
-  },
-  {
-    title: 'A visual analytics system for exploring, monitoring, and forecasting road traffic congestion.',
-    author: 'Chunggi Lee, Yeonjun Kim, Seungmin Jin, Dongmin Kim, Ross Maciejewski, David Ebert, and Sungahn Ko',
-    conference:
-      'IEEE transactions on visualization and computer graphics (TVCG IF=4.579), 2019, Accepted. Invited (Proc. IEEE VIS`19)',
-    image: TVCG2019,
+    title: 'Evaluation and improvement of Segment Anything Model for interactive histopathology image segmentation',
+    author:
+      'SeungKyu Kim, Hyun-Jic Oh, Seonghui Min, Won-Ki Jeong',
+    conference: 'MICCAI 2023 1st International Workshop on Foundation Models for General Medical AI (MedAGI), Accepted ',
+    image: MICCAIW2023,
     tags: [
-      { tag: '[PDF]', link: TVCG2019PDF },
-      { tag: '[Video]', link: 'https://vimeo.com/700148275' },
+      { tag: '[PDF]', link: 'https://arxiv.org/abs/2310.10493' },
     ],
   },
   {
-    title: 'An Empirical Study on the Relationship Between the Number of Coordinated Views and Visual Analysis.',
-    author: 'Juyoung Oh, Chunggi Lee, Hwiyeon Kim, Kihwan Kim, Osang Kwon, Eric D. Ragan, Bum Chul Kwon, Sungahn Ko',
-    conference: 'Arxiv, 2018',
-    image: MCV2018,
-    tags: [{ tag: '[PDF]', link: 'https://arxiv.org/abs/2204.09524' }],
-  },
-  {
-    title: 'A Graphical Workflow Exploration Environment For Visual Analytics.',
-    author: 'Chunggi Lee, Juyoung Oh, Seungmin Jin, Isaac Cho, and Sungahn Ko',
-    conference: 'Arxiv, 2018',
-    image: GenomeAnalysis2018,
+    title: 'DiffMix: Diffusion Model-based Data Synthesis for Nuclei Segmentation and Classification in Imbalanced Pathology Image Datasets',
+    author:
+      'Hyun-Jic Oh, Won-Ki Jeong',
+    conference: 'International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023, Accepted ',
+    image: MICCAI2023,
     tags: [
-      { tag: '[PDF]', link: 'https://arxiv.org/abs/2204.10221' },
-      { tag: '[Video]', link: 'https://vimeo.com/700148330' },
+      { tag: '[PDF]', link: 'https://arxiv.org/abs/2306.14132' },
+      { tag: '[Github]', link: 'https://github.com/hvcl/DiffMix' },
     ],
   },
+  {
+    title: 'MitoVis: A Unified Visual Analytics System for End-to-End Neuronal Mitochondria Analysis',
+    author:
+      'JunYoung Choi, Hyun-Jic Oh, HakJun Lee, Suyeon Kim, Seok-Kyu Kwon, Won-Ki Jeong',
+    conference: 'IEEE Transactions on Visualization and Computer Graphics (TVCG), 2023, Accepted ',
+    image: TVCG2023,
+    tags: [
+      { tag: '[PDF]', link: 'https://ieeexplore.ieee.org/abstract/document/10005035' },
+      { tag: '[Github]', link: 'https://github.com/hvcl/MitoVis-public' },
+    ],
+  },
+  {
+    title: 'Scribble-Supervised Cell Segmentation Using Multiscale Contrastive Regularization',
+    author:
+      'Hyun-Jic Oh, Kanggeun Lee, Won-Ki Jeong',
+    conference: 'IEEE International Symposium on Biomedical Imaging (ISBI), 2022, Accepted ',
+    image: ISBI2022,
+    tags: [
+      { tag: '[PDF]', link: 'https://arxiv.org/abs/2306.14136' },
+      { tag: '[Github]', link: 'https://github.com/hvcl/ScrCont_extension' },
+    ],
+  },    
 ];
+
 
 export default pubs;

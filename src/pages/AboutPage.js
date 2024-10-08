@@ -8,35 +8,22 @@ import Animate from '../components/Animate';
 
 const Educations = [
   {
-    title: 'Harvard University',
-    content: 'Ph.D Student in Computer Science, 2023~Now',
+    title: 'Korea University',
+    content: 'Ph.D Student in Computer Science, 2021~Now',
   },
   {
-    title: 'Ulsan National Institute of Science and Technology (UNIST)',
-    content: 'M.S in Computer Science and Engineering, 2018~2020',
-  },
-  {
-    title: 'Ulsan National Institute of Science and Technology (UNIST)',
-    content: 'B.S in Computer Science and Engineering, 2014~2018',
-  },
+    title: 'Korea University',
+    content: 'B.S in Biomedical Engineering, 2014~2021',
+  }
 ];
 
-const Experiences = [
-  {
-    title: 'Naver Webtoon',
-    // content: 'AI Applied Researcher, 2022~ \n (Alternative Military Service)',
-    content: 'AI Applied Researcher, 2022~2023',
-  },
-  {
-    title: 'Lunit',
-    // content: 'Research Engineer, 2020~2022 \n (Alternative Military Service)',
-    content: 'Research Engineer, 2020~2022',
-  },
-  {
-    title: 'iVADER Lab',
-    content: 'Researcher, 2017~2020',
-  },
-];
+// const Experiences = [
+//   {
+//     title: 'Military Service',
+//     // content: 'AI Applied Researcher, 2022~ \n (Alternative Military Service)',
+//     content: 'Auxiliary Police, 2016~2018',
+//   }
+// ];
 
 const ProfileText = ({ text, size }) => {
   return (
@@ -74,8 +61,8 @@ const AboutPage = forwardRef((props, ref) => {
                 }}
                 src={me}
               />
-              <ProfileText size={'h5'} text={'Chunggi Lee'} />
-              <ProfileText size={'h6'} text={'Harvard University'} />
+              <ProfileText size={'h5'} text={'Hyun-Jic Oh'} />
+              <ProfileText size={'h6'} text={'Korea University'} />
               <ProfileText size={'h6'} text={'PhD Student'} />
             </Animate>
           </Grid>
@@ -87,18 +74,14 @@ const AboutPage = forwardRef((props, ref) => {
                 <Link target="_blank" href="https://hvcl.korea.ac.kr/">
                   High-performanceVisual Computing Group
                 </Link>{' '}
-                in Korea University with Prof. Won-Ki Jeong
-                {/* My work is not only to understand the process of webtoon creation, but also to help the users to */}
-                {/* enhance their ability effectively by building a Human AI Interaction (HAI) through deep learning.  */}
-                My research explores the intersection of Human-Computer Interaction (HCI), Visualization, and Computer
-                Vision. My primary goal is to transform real-world environments into immersive AR/VR experiences,
-                focusing on developing innovative applications and techniques. This work enhances user interaction and
-                engagement by leveraging computer vision techniques. I earned my B.S. degree from the Biomedical Engineering
-                Science department at{' '}
+                in Korea University with Prof. Won-Ki Jeong.
+                My research focuses on developing deep learning algorithms aimed at improving the accuracy and efficiency 
+                of medical image analysis. By leveraging advanced computer vision techniques, I aim to create innovative
+                solutions that enhance the precision and effectiveness of medical image processing.
+                I earned my B.S. degree from the Biomedical Engineering Science department at{' '}
                 <Link target="_blank" href="https://www.korea.ac.kr">
                   Korea University
                 </Link>
-                {/* as part of my military service. */}
               </Typography>
             </Animate>
             <Box
@@ -118,7 +101,7 @@ const AboutPage = forwardRef((props, ref) => {
                   ))}
                 </Box>
               </Animate>
-              <Animate delay={0.6}>
+              {/* <Animate delay={0.6}>
                 <Box>
                   <Typography marginTop={2} variant="h5">
                     Work Experiences
@@ -127,7 +110,7 @@ const AboutPage = forwardRef((props, ref) => {
                     <ExperienceItem type={'COMPANY'} title={elem['title']} content={elem['content']}></ExperienceItem>
                   ))}
                 </Box>
-              </Animate>
+              </Animate> */}
             </Box>
           </Grid>
         </Grid>
