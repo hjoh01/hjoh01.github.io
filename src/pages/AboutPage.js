@@ -19,8 +19,8 @@ const Educations = [
 
 const Experiences = [
   {
-    title: 'Harvard VCG',
-    content: 'Visiting Scholar, 03.2024~03.2025',
+    title: 'Visting Scholar',
+    content: 'Research Internship in Visual Computing Group @ Harvard University, 04.2024~03.2025',
   }
 ];
 
@@ -73,7 +73,7 @@ const AboutPage = forwardRef((props, ref) => {
                 <Link target="_blank" href="https://hvcl.korea.ac.kr/">
                   High-performanceVisual Computing Group
                 </Link>{' '}
-                in Korea University with Prof. Won-Ki Jeong.
+                in Korea University advised by Prof. Won-Ki Jeong.
                 My research focuses on developing deep learning algorithms aimed at improving the accuracy and efficiency 
                 of medical image analysis. By leveraging advanced computer vision techniques, I aim to create innovative
                 solutions that enhance the precision and effectiveness of medical image processing.

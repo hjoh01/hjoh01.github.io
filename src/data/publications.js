@@ -1,16 +1,3 @@
-import VIS2024 from '../assets/images/VIS2024.png';
-import AAAI2024 from '../assets/images/AAAI2024.gif';
-import MM2023 from '../assets/images/MM2023.png';
-import TILDEQ from '../assets/images/TILDE2022.png';
-import CVPR2022 from '../assets/images/CVPR2022.png';
-import ECCVW2022 from '../assets/images/ECCVW2022.png';
-import CHI2020 from '../assets/images/CHI2020.png';
-import CIKM2020 from '../assets/images/CIKM2020.png';
-import TVCG2019 from '../assets/images/TVCG2019.png';
-import MCV2018 from '../assets/images/MCV2018.png';
-import GenomeAnalysis2018 from '../assets/images/GenomeAnalysis2018.png';
-import TVCG2019PDF from '../assets/pdfs/TVCG2019.pdf';
-
 import ISBI2022 from '../assets/images/ISBI2022.png';
 import TVCG2023 from '../assets/images/TVCG2023.png';
 import MICCAI2023 from '../assets/images/MICCAI2023.png';
