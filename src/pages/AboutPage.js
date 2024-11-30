@@ -9,19 +9,27 @@ import Animate from '../components/Animate';
 const Educations = [
   {
     title: 'Korea University',
-    content: 'Ph.D Student in Computer Science, 2021~Now',
+    content: 'Ph.D Student in Computer Science, \\ 03.2021-02.2026 (Expected)',
   },
   {
     title: 'Korea University',
-    content: 'B.S in Biomedical Engineering, 2014~2021',
+    content: 'B.S in Biomedical Engineering, \\ 03.2014-02.2021 (2016-2018: Military Service)',
   }
 ];
 
 const Experiences = [
   {
-    title: 'Visting Scholar',
-    content: 'Research Internship in Visual Computing Group @ Harvard University, 04.2024~03.2025',
-  }
+    title: 'Research Intern at Harvard University',
+    content: 'Visual Computing Group, 04.2024-03.2025',
+  },
+  {
+    title: 'Chapman University',
+    content: 'Exchange Student, Spring 2020',
+  },
+  {
+    title: 'East China Normal University',
+    content: 'Language Program, Summer 2016',
+  },
 ];
 
 const ProfileText = ({ text, size }) => {
@@ -65,22 +73,28 @@ const AboutPage = forwardRef((props, ref) => {
               <ProfileText size={'h6'} text={'PhD Student'} />
             </Animate>
           </Grid>
-
+ 
           <Grid item lg>
             <Animate delay={0.3}>
               <Typography variant="h6">
-                Hello! I am Hyun-Jic Oh, a PhD student at{' '}
+                Hello! I am Hyun-Jic Oh, a Computer Science PhD student at{' '}
                 <Link target="_blank" href="https://hvcl.korea.ac.kr/">
-                  High-performanceVisual Computing Group
+                  HVCL
                 </Link>{' '}
-                in Korea University advised by Prof. Won-Ki Jeong.
-                My research focuses on developing deep learning algorithms aimed at improving the accuracy and efficiency 
-                of medical image analysis. By leveraging advanced computer vision techniques, I aim to create innovative
-                solutions that enhance the precision and effectiveness of medical image processing.
+                in Korea University with Prof. Won-Ki Jeong.
+                My research focuses on advancing medical image analysis through innovative deep learning techniques, 
+                particularly leveraging diffusion models. As a research intern at{' '}
+                <Link target="_blank" href="https://vcg.seas.harvard.edu/">
+                  Visual Computing Group
+                </Link>
+                in Harvard University, I'm developing diffusion model-based algorithms for multiplexed pathology image translation. 
+                This cutting-edge work aims to enhance the accuracy and efficiency of medical image processing, 
+                potentially contributing to more precise clinical diagnosis and treatment planning in oncology and immunology. 
                 I earned my B.S. degree from the Biomedical Engineering Science department at{' '}
                 <Link target="_blank" href="https://www.korea.ac.kr">
                   Korea University
                 </Link>
+                .
               </Typography>
             </Animate>
             <Box
@@ -106,7 +120,7 @@ const AboutPage = forwardRef((props, ref) => {
                     Experiences
                   </Typography>
                   {Experiences.map((elem) => (
-                    <ExperienceItem type={'COMPANY'} title={elem['title']} content={elem['content']}></ExperienceItem>
+                    <ExperienceItem type={'SCHOOL'} title={elem['title']} content={elem['content']}></ExperienceItem>
                   ))}
                 </Box>
               </Animate>}

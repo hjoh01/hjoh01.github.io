@@ -15,7 +15,7 @@ const pubs = [
     tags: [
       { tag: '[PDF]', link: 'https://arxiv.org/abs/2407.14434' },
       { tag: '[Video]', link: 'https://www.youtube.com/watch?v=_CWxR9CXjM8' },
-      // { tag: '[Github]', link: 'https://github.com/ChungYi347/Interactive-Multi-Class-Tiny-Object-Detection' },
+      { tag: '[Github]', link: 'https://github.com/hvcl/CoSyn-ContextCondNucAug' },
     ],
   },
   {
