@@ -86,7 +86,7 @@ const AboutPage = forwardRef((props, ref) => {
                 particularly leveraging diffusion models. As a research intern at{' '}
                 <Link target="_blank" href="https://vcg.seas.harvard.edu/">
                   Visual Computing Group
-                </Link>
+                </Link>{' '}
                 in Harvard University, I'm developing diffusion model-based algorithms for multiplexed pathology image translation. 
                 This cutting-edge work aims to enhance the accuracy and efficiency of medical image processing, 
                 potentially contributing to more precise clinical diagnosis and treatment planning in oncology and immunology. 
