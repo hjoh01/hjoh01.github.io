@@ -4,6 +4,8 @@ import MICCAI2023 from '../assets/images/MICCAI2023.png';
 import MICCAIW2023 from '../assets/images/MICCAIW2023.png';
 import MICCAI2024 from '../assets/images/MICCAI2024.png';
 import ECCV2024 from '../assets/images/ECCV2024.png';
+import CVPRW2025 from '../assets/images/CVPRW2025.png';
+import CIBM2025 from '../assets/images/CIBM2025.png';
 
 const pubs = [
   {
@@ -11,7 +13,7 @@ const pubs = [
     author:
       '*Hyun-Jic Oh, *Seonghui Min, Won-Ki Jeong',
     conference: 'Journal of Computers in Biology and Medicine (CIBM), 2025',
-    // image: ECCV2024,
+    image: CIBM2025,
     // tags: [
     //   { tag: '[PDF]', link: 'https://arxiv.org/abs/2407.14434' },
     //   { tag: '[Video]', link: 'https://www.youtube.com/watch?v=_CWxR9CXjM8' },
@@ -23,7 +25,7 @@ const pubs = [
     author:
       '*GaYeon Koh, *Hyun-Jic Oh, Jeonghyun Noh, Won-Ki Jeong',
     conference: '2nd MetaFood Workshop at CVPR 2025',
-    // image: CVPRW2025,
+    image: CVPRW2025,
     // tags: [
     //   { tag: '[PDF]', link: 'https://arxiv.org/abs/2407.14434' },
     //   { tag: '[Video]', link: 'https://www.youtube.com/watch?v=_CWxR9CXjM8' },
