@@ -7,10 +7,34 @@ import ECCV2024 from '../assets/images/ECCV2024.png';
 
 const pubs = [
   {
+    title: 'S2L-CM: Scribble-supervised Nuclei Segmentation in Histopathology Images using Contrastive Regularization and Pixel-Level Multiple Instance Learning',
+    author:
+      '*Hyun-Jic Oh, *Seonghui Min, Won-Ki Jeong',
+    conference: 'Journal of Computers in Biology and Medicine (CIBM), 2025',
+    // image: ECCV2024,
+    // tags: [
+    //   { tag: '[PDF]', link: 'https://arxiv.org/abs/2407.14434' },
+    //   { tag: '[Video]', link: 'https://www.youtube.com/watch?v=_CWxR9CXjM8' },
+    //   { tag: '[Github]', link: 'https://github.com/hvcl/CoSyn-ContextCondNucAug' },
+    // ],
+  },
+  {
+    title: 'Synthetic Data Augmentation using Pre-trained Diffusion Models for Long-tailed Food Image Classification',
+    author:
+      '*GaYeon Koh, *Hyun-Jic Oh, Jeonghyun Noh, Won-Ki Jeong',
+    conference: '2nd MetaFood Workshop at CVPR 2025',
+    // image: CVPRW2025,
+    // tags: [
+    //   { tag: '[PDF]', link: 'https://arxiv.org/abs/2407.14434' },
+    //   { tag: '[Video]', link: 'https://www.youtube.com/watch?v=_CWxR9CXjM8' },
+    //   { tag: '[Github]', link: 'https://github.com/hvcl/CoSyn-ContextCondNucAug' },
+    // ],
+  },
+  {
     title: 'Co‑synthesis of Histopathology Nuclei Image‑Label Pairs using a Context‑Conditioned Joint Diffusion Model',
     author:
       '*Seonghui Min, *Hyun-Jic Oh, Won-Ki Jeong',
-    conference: 'IEEE European Conference on Computer Vision (ECCV), 2024, Accepted ',
+    conference: 'IEEE European Conference on Computer Vision (ECCV), 2024',
     image: ECCV2024,
     tags: [
       { tag: '[PDF]', link: 'https://arxiv.org/abs/2407.14434' },
@@ -22,7 +46,7 @@ const pubs = [
     title: 'Controllable and Efficient Multi‑Class Pathology Nuclei Data Augmentation using Text‑Conditioned Diffusion Models',
     author:
       'Hyun-Jic Oh, Won-Ki Jeong',
-    conference: 'International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024, Accepted ',
+    conference: 'International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024',
     image: MICCAI2024,
     tags: [
       { tag: '[PDF]', link: 'https://arxiv.org/abs/2407.14426' },
@@ -33,7 +57,7 @@ const pubs = [
     title: 'Evaluation and improvement of Segment Anything Model for interactive histopathology image segmentation',
     author:
       'SeungKyu Kim, Hyun-Jic Oh, Seonghui Min, Won-Ki Jeong',
-    conference: 'MICCAI 2023 1st International Workshop on Foundation Models for General Medical AI (MedAGI), Accepted ',
+    conference: 'MICCAI 2023 1st International Workshop on Foundation Models for General Medical AI (MedAGI)',
     image: MICCAIW2023,
     tags: [
       { tag: '[PDF]', link: 'https://arxiv.org/abs/2310.10493' },
@@ -43,7 +67,7 @@ const pubs = [
     title: 'DiffMix: Diffusion Model-based Data Synthesis for Nuclei Segmentation and Classification in Imbalanced Pathology Image Datasets',
     author:
       'Hyun-Jic Oh, Won-Ki Jeong',
-    conference: 'International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023, Accepted ',
+    conference: 'International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023',
     image: MICCAI2023,
     tags: [
       { tag: '[PDF]', link: 'https://arxiv.org/abs/2306.14132' },
@@ -54,7 +78,7 @@ const pubs = [
     title: 'MitoVis: A Unified Visual Analytics System for End-to-End Neuronal Mitochondria Analysis',
     author:
       'JunYoung Choi, Hyun-Jic Oh, HakJun Lee, Suyeon Kim, Seok-Kyu Kwon, Won-Ki Jeong',
-    conference: 'IEEE Transactions on Visualization and Computer Graphics (TVCG), 2023, Accepted ',
+    conference: 'IEEE Transactions on Visualization and Computer Graphics (TVCG), 2023',
     image: TVCG2023,
     tags: [
       { tag: '[PDF]', link: 'https://ieeexplore.ieee.org/abstract/document/10005035' },
@@ -65,7 +89,7 @@ const pubs = [
     title: 'Scribble-Supervised Cell Segmentation Using Multiscale Contrastive Regularization',
     author:
       'Hyun-Jic Oh, Kanggeun Lee, Won-Ki Jeong',
-    conference: 'IEEE International Symposium on Biomedical Imaging (ISBI), 2022, Accepted ',
+    conference: 'IEEE International Symposium on Biomedical Imaging (ISBI), 2022',
     image: ISBI2022,
     tags: [
       { tag: '[PDF]', link: 'https://arxiv.org/abs/2306.14136' },
