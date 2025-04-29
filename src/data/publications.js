@@ -14,11 +14,11 @@ const pubs = [
       '*Hyun-Jic Oh, *Seonghui Min, Won-Ki Jeong',
     conference: 'Journal of Computers in Biology and Medicine (CIBM), 2025',
     image: CIBM2025,
-    // tags: [
+    tags: [
     //   { tag: '[PDF]', link: 'https://arxiv.org/abs/2407.14434' },
     //   { tag: '[Video]', link: 'https://www.youtube.com/watch?v=_CWxR9CXjM8' },
     //   { tag: '[Github]', link: 'https://github.com/hvcl/CoSyn-ContextCondNucAug' },
-    // ],
+    ],
   },
   {
     title: 'Synthetic Data Augmentation using Pre-trained Diffusion Models for Long-tailed Food Image Classification',
@@ -26,11 +26,11 @@ const pubs = [
       '*GaYeon Koh, *Hyun-Jic Oh, Jeonghyun Noh, Won-Ki Jeong',
     conference: '2nd MetaFood Workshop at CVPR 2025',
     image: CVPRW2025,
-    // tags: [
+    tags: [
     //   { tag: '[PDF]', link: 'https://arxiv.org/abs/2407.14434' },
     //   { tag: '[Video]', link: 'https://www.youtube.com/watch?v=_CWxR9CXjM8' },
     //   { tag: '[Github]', link: 'https://github.com/hvcl/CoSyn-ContextCondNucAug' },
-    // ],
+    ],
   },
   {
     title: 'Co‑synthesis of Histopathology Nuclei Image‑Label Pairs using a Context‑Conditioned Joint Diffusion Model',
