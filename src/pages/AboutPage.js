@@ -9,7 +9,7 @@ import Animate from '../components/Animate';
 const Educations = [
   {
     title: 'Korea University',
-    content: 'Ph.D Student in Computer Science, -02.2026 (Expected)',
+    content: 'Ph.D Student in Computer Science, -08.2026 (Expected)',
   },
   {
     title: 'Korea University',
