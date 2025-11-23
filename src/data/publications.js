@@ -6,8 +6,22 @@ import MICCAI2024 from '../assets/images/MICCAI2024.png';
 import ECCV2024 from '../assets/images/ECCV2024.png';
 import CVPRW2025 from '../assets/images/CVPRW2025.png';
 import CIBM2025 from '../assets/images/CIBM2025.png';
+import AAAI2026 from '../assets/images/AAAI2026.png';
+
 
 const pubs = [
+  {
+    title: 'Virtual Multiplex Staining for Histological Images using a Marker-wise Conditioned Diffusion Model',
+    author:
+      'Hyun-Jic Oh, Junsik Kim, Zhiyi Shi, Yichen Wu, Yu-An Chen, Peter K. Sorger, Hanspeter Pfister, Won-Ki Jeong',
+    conference: 'Journal of Computers in Biology and Medicine (AAAI), 2026',
+    image: AAAI2026,
+    tags: [
+      { tag: '[PDF]', link: 'https://arxiv.org/abs/2508.14681' },
+    //   { tag: '[Video]', link: 'https://www.youtube.com/watch?v=_CWxR9CXjM8' },
+    //   { tag: '[Github]', link: 'https://github.com/hvcl/CoSyn-ContextCondNucAug' },
+    ],
+  },
   {
     title: 'S2L-CM: Scribble-supervised Nuclei Segmentation in Histopathology Images using Contrastive Regularization and Pixel-Level Multiple Instance Learning',
     author:
