@@ -14,7 +14,7 @@ const pubs = [
     title: 'Virtual Multiplex Staining for Histological Images using a Marker-wise Conditioned Diffusion Model',
     author:
       'Hyun-Jic Oh, Junsik Kim, Zhiyi Shi, Yichen Wu, Yu-An Chen, Peter K. Sorger, Hanspeter Pfister, Won-Ki Jeong',
-    conference: 'Journal of Computers in Biology and Medicine (AAAI), 2026',
+    conference: 'Association for the Advancement of Artificial Intelligence (AAAI), 2026',
     image: AAAI2026,
     tags: [
       { tag: '[PDF]', link: 'https://arxiv.org/abs/2508.14681' },
