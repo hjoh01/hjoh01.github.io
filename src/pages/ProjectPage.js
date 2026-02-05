@@ -8,7 +8,7 @@ import DetailModal from '../components/Modal';
 import { useThemeContext } from '../contexts/ThemeContext';
 
 import ProjectCard from '../components/ProjectCard';
-// import projs from '../data/projects';
+import projs from '../data/projects';
 
 const ProjectPage = forwardRef((props, ref) => {
   const [selectedIdx, setSelectedIdx] = useState(0);
