@@ -13,7 +13,7 @@ const HomePage = () => {
     <>
       <AboutPage ref={refs['ABOUT']} />
       <PublicationPage ref={refs['PUBLICATIONS']} />
-      {/* <PorjectPage ref={refs['PROJECTS']} /> */}
+      {<PorjectPage ref={refs['PROJECTS']} />}
     </>
   );
 };
