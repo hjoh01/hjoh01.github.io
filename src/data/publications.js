@@ -7,9 +7,22 @@ import ECCV2024 from '../assets/images/ECCV2024.png';
 import CVPRW2025 from '../assets/images/CVPRW2025.png';
 import CIBM2025 from '../assets/images/CIBM2025.png';
 import AAAI2026 from '../assets/images/AAAI2026.png';
+import MICCAI2026 from '../assets/images/MICCAI2026.png';
 
 
 const pubs = [
+  {
+    title: 'Zero-shot CT Super-Resolution using Diffusion-based 2D Projection Priors and Signed 3D Gaussians',
+    author:
+      'Hyun-Jic Oh, Won-Ki Jeong',
+    conference: 'International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2026',
+    image: MICCAI2026,
+    tags: [
+      { tag: '[PDF]', link: 'https://arxiv.org/abs/2508.15151' },
+      { tag: '[Github]', link: 'https://github.com/hvcl/3DCT_SR_DDNM_NAB-GS' },
+      { tag: '[HuggingFace]', link: 'https://huggingface.co/Hyun-Jic/ddnm-xray512-ct-projection-prior' },
+    ],
+  },
   {
     title: 'Virtual Multiplex Staining for Histological Images using a Marker-wise Conditioned Diffusion Model',
     author:
