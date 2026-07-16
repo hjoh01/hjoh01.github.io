@@ -54,9 +54,8 @@ const pubs = [
     conference: '2nd MetaFood Workshop at CVPR 2025',
     image: CVPRW2025,
     tags: [
-    //   { tag: '[PDF]', link: 'https://arxiv.org/abs/2407.14434' },
-    //   { tag: '[Video]', link: 'https://www.youtube.com/watch?v=_CWxR9CXjM8' },
-    //   { tag: '[Github]', link: 'https://github.com/hvcl/CoSyn-ContextCondNucAug' },
+      { tag: '[PDF]', link: 'https://openaccess.thecvf.com/content/CVPR2025W/MTF/papers/Koh_Synthetic_Data_Augmentation_using_Pre-trained_Diffusion_Models_for_Long-tailed_Food_CVPRW_2025_paper.pdf' },
+      { tag: '[Github]', link: 'https://github.com/kohgayeon/DiSC-DS' },
     ],
   },
   {
