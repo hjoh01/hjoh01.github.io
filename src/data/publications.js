@@ -14,7 +14,7 @@ const pubs = [
   {
     title: 'Zero-shot CT Super-Resolution using Diffusion-based 2D Projection Priors and Signed 3D Gaussians',
     author:
-      'Hyun-Jic Oh, Won-Ki Jeong',
+      '*Jeonghyun Noh, *Hyun-Jic Oh, Won-Ki Jeong',
     conference: 'International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2026',
     image: MICCAI2026,
     tags: [
