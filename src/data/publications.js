@@ -31,8 +31,8 @@ const pubs = [
     image: AAAI2026,
     tags: [
       { tag: '[PDF]', link: 'https://arxiv.org/abs/2508.14681' },
+      { tag: '[Github]', link: 'https://github.com/hvcl/DiffVS' },
     //   { tag: '[Video]', link: 'https://www.youtube.com/watch?v=_CWxR9CXjM8' },
-    //   { tag: '[Github]', link: 'https://github.com/hvcl/CoSyn-ContextCondNucAug' },
     ],
   },
   {
@@ -42,9 +42,7 @@ const pubs = [
     conference: 'Journal of Computers in Biology and Medicine (CIBM), 2025',
     image: CIBM2025,
     tags: [
-    //   { tag: '[PDF]', link: 'https://arxiv.org/abs/2407.14434' },
-    //   { tag: '[Video]', link: 'https://www.youtube.com/watch?v=_CWxR9CXjM8' },
-    //   { tag: '[Github]', link: 'https://github.com/hvcl/CoSyn-ContextCondNucAug' },
+      { tag: '[Github]', link: 'https://github.com/hvcl/S2L-CM' },
     ],
   },
   {
