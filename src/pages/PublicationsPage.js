@@ -25,6 +25,7 @@ const PublicationsPage = forwardRef((props, ref) => {
             media={elem['image']}
             author={elem['author']}
             conference={elem['conference']}
+            award={elem['award']}
             title={elem['title']}
             tags={elem['tags']}
           />

@@ -16,6 +16,7 @@ const pubs = [
     author:
       '*Jeonghyun Noh, *Hyun-Jic Oh, Won-Ki Jeong',
     conference: 'International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2026',
+    award: 'Early Accept (Top 9%)',
     image: MICCAI2026,
     tags: [
       { tag: '[PDF]', link: 'https://arxiv.org/abs/2508.15151' },
@@ -42,6 +43,7 @@ const pubs = [
     conference: 'Journal of Computers in Biology and Medicine (CIBM), 2025',
     image: CIBM2025,
     tags: [
+      { tag: '[Paper]', link: 'https://www.sciencedirect.com/science/article/pii/S0010482525006444' },
       { tag: '[Github]', link: 'https://github.com/hvcl/S2L-CM' },
     ],
   },

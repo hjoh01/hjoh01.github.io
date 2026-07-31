@@ -27,7 +27,7 @@ const makeTitle = (author, isLight, primary, secondary) => {
   );
 };
 
-const PublicationCard = ({ media, title, author, conference, tags }) => {
+const PublicationCard = ({ media, title, author, conference, award, tags }) => {
   const { isLight } = useThemeContext();
   const primary = isLight ? 'text.primary' : 'white';
   const secondary = isLight ? 'text.secondary' : 'white';
@@ -62,6 +62,25 @@ const PublicationCard = ({ media, title, author, conference, tags }) => {
             <Typography variant="h6" color={secondary}>
               {conference}
             </Typography>
+            {award && (
+              <Box
+                sx={{
+                  display: 'inline-block',
+                  mt: 0.5,
+                  mb: 0.5,
+                  px: 1,
+                  py: 0.25,
+                  borderRadius: 1,
+                  backgroundColor: '#03c2c9',
+                  color: 'white',
+                  fontWeight: 700,
+                  fontSize: '0.8rem',
+                  letterSpacing: 0.3,
+                }}
+              >
+                {award}
+              </Box>
+            )}
             <Box
               sx={{
                 display: 'flex',
