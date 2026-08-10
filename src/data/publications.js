@@ -8,9 +8,19 @@ import CVPRW2025 from '../assets/images/CVPRW2025.png';
 import CIBM2025 from '../assets/images/CIBM2025.png';
 import AAAI2026 from '../assets/images/AAAI2026.png';
 import MICCAI2026 from '../assets/images/MICCAI2026.png';
+import WACV2027 from '../assets/images/WACV2027.png';
 
 
 const pubs = [
+  {
+    title: 'Improving Diffusion-Based Augmentation for Data-Scarce Image Classification via Mask-Guided Reference Attention and Repulsive Noise Optimization',
+    author:
+      '*Hyun-Jic Oh, *Gayeon Koh, Won-Ki Jeong',
+    conference: 'IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2027',
+    award: 'Round 1 Accept',
+    image: WACV2027,
+    tags: [],
+  },
   {
     title: 'Zero-shot CT Super-Resolution using Diffusion-based 2D Projection Priors and Signed 3D Gaussians',
     author:
