@@ -9,16 +9,24 @@ const me = 'Hyun-Jic Oh';
 
 const makeTitle = (author, isLight, primary, secondary) => {
   const words = author.split(me);
+  // Pull a leading co-first-author asterisk into the bold/underlined name box.
+  let before = words[0];
+  let star = '';
+  if (before.endsWith('*')) {
+    before = before.slice(0, -1);
+    star = '*';
+  }
   return (
     <Box sx={{ display: 'flex' }}>
       <Typography variant="h6" color={secondary}>
-        {words[0]}
+        {before}
         <Box
           sx={{ borderBottom: isLight ? '2px solid black' : '2px solid #03c2c9' }}
           color={primary}
           fontWeight={700}
           display="inline"
         >
+          {star}
           {me}
         </Box>
         {words[1]}
