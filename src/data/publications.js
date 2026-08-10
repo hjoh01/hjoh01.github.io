@@ -15,7 +15,7 @@ const pubs = [
   {
     title: 'Improving Diffusion-Based Augmentation for Data-Scarce Image Classification via Mask-Guided Reference Attention and Repulsive Noise Optimization',
     author:
-      '*Hyun-Jic Oh, *Gayeon Koh, Won-Ki Jeong',
+      '*Hyun-Jic Oh, *GaYeon Koh, Won-Ki Jeong',
     conference: 'IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2027',
     award: 'Round 1 Accept',
     image: WACV2027,
