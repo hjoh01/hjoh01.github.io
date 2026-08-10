@@ -16,7 +16,7 @@ const makeTitle = (author, isLight, primary, secondary) => {
         <Box
           sx={{ borderBottom: isLight ? '2px solid black' : '2px solid #03c2c9' }}
           color={primary}
-          fontWeight={500}
+          fontWeight={700}
           display="inline"
         >
           {me}
