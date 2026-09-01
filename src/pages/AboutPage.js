@@ -9,17 +9,21 @@ import Animate from '../components/Animate';
 const Educations = [
   {
     title: 'Korea University',
-    content: 'Ph.D Student in Computer Science, -08.2026',
+    content: 'Ph.D. in Computer Science, 03.2021-08.2026',
   },
   {
     title: 'Korea University',
-    content: 'B.S in Biomedical Engineering',
+    content: 'B.S. in Biomedical Engineering, 03.2014-02.2021',
   }
 ];
 
 const Experiences = [
   {
-    title: 'Research Intern at Harvard University',
+    title: 'AI Research Scientist at VIENCE Inc.',
+    content: 'Seoul, South Korea, 08.2026-Present',
+  },
+  {
+    title: 'Visiting Scholar at Harvard University',
     content: 'Visual Computing Group, 04.2024-03.2025',
   },
   {
@@ -69,26 +73,28 @@ const AboutPage = forwardRef((props, ref) => {
                 src={me}
               />
               <ProfileText size={'h5'} text={'Hyun-Jic Oh'} />
-              <ProfileText size={'h6'} text={'Korea University'} />
-              <ProfileText size={'h6'} text={'PhD Student'} />
+              <ProfileText size={'h6'} text={'VIENCE Inc.'} />
+              <ProfileText size={'h6'} text={'AI Research Scientist'} />
             </Animate>
           </Grid>
  
           <Grid item lg>
             <Animate delay={0.3}>
               <Typography variant="h6">
-                Hello! I am Hyun-Jic Oh, a Computer Science PhD student at{' '}
+                Hello! I am Hyun-Jic Oh, an AI Research Scientist at VIENCE Inc., where I develop deep learning models
+                for VIENCE PathoView, a pathology image analysis platform.
+                I received my Ph.D. in Computer Science from{' '}
                 <Link target="_blank" href="https://hvcl.korea.ac.kr/">
                   HVCL
                 </Link>{' '}
-                in Korea University with Prof. Won-Ki Jeong.
+                in Korea University in August 2026, advised by Prof. Won-Ki Jeong.
                 My research focuses on advancing medical image analysis through innovative deep learning techniques, 
-                particularly leveraging diffusion models. As a research intern at{' '}
+                particularly leveraging diffusion models. As a visiting scholar at{' '}
                 <Link target="_blank" href="https://vcg.seas.harvard.edu/">
                   Visual Computing Group
                 </Link>{' '}
-                in Harvard University, I'm developing diffusion model-based algorithms for multiplexed pathology image translation. 
-                This cutting-edge work aims to enhance the accuracy and efficiency of medical image processing, 
+                in Harvard University, I developed diffusion model-based algorithms for multiplexed pathology image translation. 
+                This work aims to enhance the accuracy and efficiency of medical image processing, 
                 potentially contributing to more precise clinical diagnosis and treatment planning in oncology and immunology. 
                 I earned my B.S. degree from the Biomedical Engineering Science department at{' '}
                 <Link target="_blank" href="https://www.korea.ac.kr">
