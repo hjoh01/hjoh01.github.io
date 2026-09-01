@@ -81,8 +81,11 @@ const AboutPage = forwardRef((props, ref) => {
           <Grid item lg>
             <Animate delay={0.3}>
               <Typography variant="h6">
-                Hello! I am Hyun-Jic Oh, an AI Research Scientist at VIENCE Inc., where I develop deep learning models
-                for VIENCE PathoView, a pathology image analysis platform.
+                Hello! I am Hyun-Jic Oh, an AI Research Scientist at{' '}
+                <Link target="_blank" href="https://vience.io/">
+                  VIENCE Inc.
+                </Link>
+                , where I develop deep learning models for VIENCE PathoView, a pathology image analysis platform.
                 I received my Ph.D. in Computer Science from{' '}
                 <Link target="_blank" href="https://hvcl.korea.ac.kr/">
                   HVCL
