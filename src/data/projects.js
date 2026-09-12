@@ -17,7 +17,6 @@ import nafld from '../assets/images/nafld.png';
 import discds from '../assets/images/discds.png';
 import diffvs from '../assets/images/diffvs.png';
 
-
 const projs = [
   {
     title: 'PAIP 2023 Challenge Platform',

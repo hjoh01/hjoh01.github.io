@@ -91,7 +91,7 @@ const Header = () => {
               variant="h6"
               color={isLight ? 'black' : 'white'}
             >
-              <a href={CVPDF} target="_blank">
+              <a href={CVPDF} target="_blank" rel="noreferrer">
                 {elem['name']}
               </a>
             </Typography>

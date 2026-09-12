@@ -14,7 +14,7 @@ const Educations = [
   {
     title: 'Korea University',
     content: 'B.S. in Biomedical Engineering, 03.2014-02.2021',
-  }
+  },
 ];
 
 const Experiences = [
@@ -77,7 +77,7 @@ const AboutPage = forwardRef((props, ref) => {
               <ProfileText size={'h6'} text={'AI Research Scientist'} />
             </Animate>
           </Grid>
- 
+
           <Grid item lg>
             <Animate delay={0.3}>
               <Typography variant="h6">
@@ -85,21 +85,21 @@ const AboutPage = forwardRef((props, ref) => {
                 <Link target="_blank" href="https://vience.io/">
                   VIENCE Inc.
                 </Link>
-                , where I develop deep learning models for VIENCE PathoView, a pathology image analysis platform.
-                I received my Ph.D. in Computer Science from{' '}
+                , where I develop deep learning models for VIENCE PathoView, a pathology image analysis platform. I
+                received my Ph.D. in Computer Science from{' '}
                 <Link target="_blank" href="https://hvcl.korea.ac.kr/">
                   HVCL
                 </Link>{' '}
-                in Korea University in August 2026, advised by Prof. Won-Ki Jeong.
-                My research focuses on advancing medical image analysis through innovative deep learning techniques, 
-                particularly leveraging diffusion models. As a visiting scholar at{' '}
+                in Korea University in August 2026, advised by Prof. Won-Ki Jeong. My research focuses on advancing
+                medical image analysis through innovative deep learning techniques, particularly leveraging diffusion
+                models. As a visiting scholar at{' '}
                 <Link target="_blank" href="https://vcg.seas.harvard.edu/">
                   Visual Computing Group
                 </Link>{' '}
-                in Harvard University, I developed diffusion model-based algorithms for multiplexed pathology image translation. 
-                This work aims to enhance the accuracy and efficiency of medical image processing, 
-                potentially contributing to more precise clinical diagnosis and treatment planning in oncology and immunology. 
-                I earned my B.S. degree from the Biomedical Engineering Science department at{' '}
+                in Harvard University, I developed diffusion model-based algorithms for multiplexed pathology image
+                translation. This work aims to enhance the accuracy and efficiency of medical image processing,
+                potentially contributing to more precise clinical diagnosis and treatment planning in oncology and
+                immunology. I earned my B.S. degree from the Biomedical Engineering Science department at{' '}
                 <Link target="_blank" href="https://www.korea.ac.kr">
                   Korea University
                 </Link>
@@ -123,16 +123,18 @@ const AboutPage = forwardRef((props, ref) => {
                   ))}
                 </Box>
               </Animate>
-              {<Animate delay={0.6}>
-                <Box>
-                  <Typography marginTop={2} variant="h5">
-                    Experiences
-                  </Typography>
-                  {Experiences.map((elem) => (
-                    <ExperienceItem type={'SCHOOL'} title={elem['title']} content={elem['content']}></ExperienceItem>
-                  ))}
-                </Box>
-              </Animate>}
+              {
+                <Animate delay={0.6}>
+                  <Box>
+                    <Typography marginTop={2} variant="h5">
+                      Experiences
+                    </Typography>
+                    {Experiences.map((elem) => (
+                      <ExperienceItem type={'SCHOOL'} title={elem['title']} content={elem['content']}></ExperienceItem>
+                    ))}
+                  </Box>
+                </Animate>
+              }
             </Box>
           </Grid>
         </Grid>
