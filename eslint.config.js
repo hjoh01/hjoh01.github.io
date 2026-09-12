@@ -38,6 +38,8 @@ module.exports = [
       'no-console': 1,
       'no-unused-vars': 0,
       'react/prop-types': 0,
+      // `css` is Emotion's prop, enabled via the jsx importSource in babel.config.js
+      'react/no-unknown-property': ['error', { ignore: ['css'] }],
     },
   },
 ];
