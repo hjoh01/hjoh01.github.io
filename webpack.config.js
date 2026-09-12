@@ -2,7 +2,6 @@ const { resolve } = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const TerserWebpackPlugin = require('terser-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const prod = process.env.NODE_ENV === 'production';
 
@@ -18,12 +17,10 @@ const loaders = {
     },
   },
   style: [prod ? MiniCssExtractPlugin.loader : 'style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
-  url: {
-    loader: 'url-loader',
-    options: { limit: 8192 },
-  },
   svg: {
     loader: '@svgr/webpack',
+    // Keeps `import { ReactComponent as Icon } from './icon.svg'` working.
+    options: { exportType: 'named' },
   },
 };
 
@@ -55,22 +52,30 @@ module.exports = {
       },
       {
         test: /\.(jpe?g|png|gif|bmp)$/,
-        use: [loaders.url],
+        type: 'asset',
+        parser: { dataUrlCondition: { maxSize: 8192 } },
       },
       {
         test: /\.svg$/,
-        use: [loaders.svg, loaders.url],
+        oneOf: [
+          // `import url from './icon.svg?url'` -> emitted file, for <img src={...} />
+          {
+            resourceQuery: /url/,
+            type: 'asset/resource',
+          },
+          // everything else -> React component via the named `ReactComponent` export
+          {
+            issuer: /\.jsx?$/,
+            use: [loaders.svg],
+          },
+        ],
       },
       {
         test: /\.pdf$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-            },
-          },
-        ],
+        type: 'asset/resource',
+        generator: {
+          filename: '[name][ext]',
+        },
       },
     ],
   },
@@ -83,7 +88,6 @@ module.exports = {
         collapseWhitespace: true,
       },
     }),
-    new CleanWebpackPlugin(),
     ...(prod
       ? [
           new MiniCssExtractPlugin({
@@ -106,6 +110,7 @@ module.exports = {
   },
   output: {
     path: resolve(__dirname, 'dist'),
+    clean: true,
     filename: 'static/js/[name].[contenthash:8].js',
     chunkFilename: 'static/js/[name].[id].[contenthash:8].chunk.js',
   },

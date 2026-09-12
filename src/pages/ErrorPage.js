@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { css } from '@emotion/react';
 import { useThemeContext } from '../contexts/ThemeContext';
 import { media } from '../styles/media';
-import { default as TakenSVG } from '../assets/undraw_Taken.svg';
+import TakenSVG from '../assets/undraw_Taken.svg?url';
 
 const ErrorPageStyle = (colors) => css`
   flex: 1;

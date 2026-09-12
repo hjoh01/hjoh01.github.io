@@ -7,4 +7,6 @@ module.exports = {
   jsxSingleQuote: false,
   trailingComma: 'es5',
   arrowParens: 'always',
+  // repo is checked out with core.autocrlf=true, so don't fight the CRLF working copy
+  endOfLine: 'auto',
 };
