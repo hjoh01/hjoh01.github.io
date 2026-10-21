@@ -19,6 +19,7 @@ const Educations = [
 
 const Experiences = [
   {
+    type: 'COMPANY',
     title: 'AI Research Scientist at VIENCE Inc.',
     content: 'Seoul, South Korea, 08.2026-Present',
   },
@@ -148,7 +149,11 @@ const AboutPage = forwardRef((props, ref) => {
                       Experiences
                     </Typography>
                     {Experiences.map((elem) => (
-                      <ExperienceItem type={'SCHOOL'} title={elem['title']} content={elem['content']}></ExperienceItem>
+                      <ExperienceItem
+                        type={elem['type'] || 'SCHOOL'}
+                        title={elem['title']}
+                        content={elem['content']}
+                      ></ExperienceItem>
                     ))}
                   </Box>
                 </Animate>
