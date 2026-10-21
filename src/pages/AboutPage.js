@@ -46,11 +46,11 @@ const Honors = [
 const Services = [
   {
     title: 'Conference Reviewer',
-    content: 'AAAI 2026-2027, CVPR 2026, ECCV 2026, NeurIPS 2026,\nMICCAI 2023-2026, ISBI 2027',
+    content: 'AAAI 2026-2027, CVPR 2026, ECCV 2026, NeurIPS 2026, MICCAI 2023-2026, ISBI 2027',
   },
   {
     title: 'Journal Reviewer',
-    content: 'IEEE TMM, Pattern Recognition, EAAI, ESWA',
+    content: 'IEEE TMM, IEEE JBHI, Pattern Recognition, EAAI, ESWA',
   },
 ];
 
@@ -171,6 +171,8 @@ const AboutPage = forwardRef((props, ref) => {
                   ))}
                 </Box>
               </Animate>
+            </Box>
+            <Box sx={{ mt: '20px' }}>
               <Animate delay={0.6}>
                 <Box>
                   <Typography marginTop={2} variant="h5">
