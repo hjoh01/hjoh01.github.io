@@ -6,6 +6,8 @@ import { motion } from 'framer-motion';
 
 import SchoolIcon from '@mui/icons-material/School';
 import ApartmentIcon from '@mui/icons-material/Apartment';
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import RateReviewIcon from '@mui/icons-material/RateReview';
 import { useThemeContext } from '../contexts/ThemeContext';
 
 const ExperienceItem = ({ type, title, content }) => {
@@ -27,6 +29,10 @@ const ExperienceItem = ({ type, title, content }) => {
             // sx={{ fontSize: { xs: 'large', sm: 'medium' } }}
           />
         </>
+      ) : type === 'AWARD' ? (
+        <EmojiEventsIcon fontSize={'large'} />
+      ) : type === 'SERVICE' ? (
+        <RateReviewIcon fontSize={'large'} />
       ) : (
         <ApartmentIcon fontSize={'large'} />
       )}

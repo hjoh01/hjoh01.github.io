@@ -36,6 +36,24 @@ const Experiences = [
   },
 ];
 
+const Honors = [
+  {
+    title: 'MICCAI 2026 Doctoral Symposium',
+    content: 'Selected for PhD Thesis Madness (Oral), 09.2026',
+  },
+];
+
+const Services = [
+  {
+    title: 'Conference Reviewer',
+    content: 'AAAI 2026-2027, CVPR 2026, ECCV 2026, NeurIPS 2026,\nMICCAI 2023-2026, ISBI 2027',
+  },
+  {
+    title: 'Journal Reviewer',
+    content: 'IEEE TMM, Pattern Recognition, EAAI, ESWA',
+  },
+];
+
 const ProfileText = ({ text, size }) => {
   return (
     <Typography align="center" variant={size}>
@@ -135,6 +153,34 @@ const AboutPage = forwardRef((props, ref) => {
                   </Box>
                 </Animate>
               }
+            </Box>
+            <Box
+              sx={{
+                mt: '20px',
+                display: 'flex',
+                justifyContent: 'space-between',
+              }}
+            >
+              <Animate delay={0.6}>
+                <Box>
+                  <Typography marginTop={2} variant="h5">
+                    Honors & Awards
+                  </Typography>
+                  {Honors.map((elem) => (
+                    <ExperienceItem type={'AWARD'} title={elem['title']} content={elem['content']}></ExperienceItem>
+                  ))}
+                </Box>
+              </Animate>
+              <Animate delay={0.6}>
+                <Box>
+                  <Typography marginTop={2} variant="h5">
+                    Academic Service
+                  </Typography>
+                  {Services.map((elem) => (
+                    <ExperienceItem type={'SERVICE'} title={elem['title']} content={elem['content']}></ExperienceItem>
+                  ))}
+                </Box>
+              </Animate>
             </Box>
           </Grid>
         </Grid>
