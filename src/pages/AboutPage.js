@@ -39,6 +39,10 @@ const Experiences = [
 
 const Honors = [
   {
+    title: 'KoSAIM 2026 Annual Conference',
+    content: 'Best Oral Presentation Award, Cum Laude, 10.2026',
+  },
+  {
     title: 'MICCAI 2026 Doctoral Symposium',
     content: 'Selected for PhD Thesis Madness (Oral), 09.2026',
   },
