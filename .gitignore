@@ -1,3 +1,16 @@
 .idea
-dist
+.DS_Store
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+vendor/
+
+# Leftovers from the previous React build (no longer part of the site)
 node_modules
+dist
+
+# Local bundler config (vendor path) - machine specific
+.bundle/

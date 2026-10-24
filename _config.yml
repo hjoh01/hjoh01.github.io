@@ -1,0 +1,45 @@
+# Basic Information
+title: Hyun-Jic Oh
+position: AI Research Scientist
+affiliation: VIENCE Inc.
+email: hyunjic0127 (at) korea.ac.kr
+
+# Search Engine Optimization (SEO)
+keywords: Hyun-Jic Oh, diffusion models, medical image analysis, computational pathology, generative models, data-efficient learning
+description: Hyun-Jic Oh is an AI Research Scientist at VIENCE Inc., working on diffusion-based generative models for medical image analysis.
+canonical: https://hjoh01.github.io/
+
+# Links
+cv_link: assets/files/CV_HyunjicOh_261021.pdf
+github_link: https://github.com/hjoh01
+linkedin: https://www.linkedin.com/in/hyun-jic-oh
+
+# Images
+avatar: ./assets/img/avatar.png
+favicon: ./assets/img/favicon.ico
+favicon_dark: ./assets/img/favicon.ico
+
+# Footnote
+enable_footnote: true
+
+# Auto Dark Mode
+auto_dark_mode: true
+
+# Font
+font: "Serif"
+
+# Use this project as a remote theme for GitHub Pages
+remote_theme: yaoyao-liu/minimal-light
+
+# The following files will be removed from the generated website.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - vendor/
+  - node_modules/
+  - dist/
+  # Leftover from the React site. Still holds an unpublished draft PDF,
+  # so keep it out of the generated site.
+  - src/

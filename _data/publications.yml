@@ -1,0 +1,90 @@
+main:
+
+  - title: Improving Diffusion-Based Augmentation for Data-Scarce Image Classification via Mask-Guided Reference Attention and Repulsive Noise Optimization
+    authors: "*<strong>Hyun-Jic Oh</strong>, *GaYeon Koh, Won-Ki Jeong (*Equal contribution)"
+    conference_short: WACV
+    conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2027.
+    image: ./assets/img/WACV2027.png
+    notes: Round 1 Accept
+
+  - title: Zero-shot CT Super-Resolution using Diffusion-based 2D Projection Priors and Signed 3D Gaussians
+    authors: "*Jeonghyun Noh, *<strong>Hyun-Jic Oh</strong>, Won-Ki Jeong (*Equal contribution)"
+    conference_short: MICCAI
+    conference: International Conference on Medical Image Computing and Computer Assisted Intervention <strong>(MICCAI)</strong>, 2026.
+    pdf: https://arxiv.org/abs/2508.15151
+    code: https://github.com/hvcl/3DCT_SR_DDNM_NAB-GS
+    others: <a href="https://huggingface.co/Hyun-Jic/ddnm-xray512-ct-projection-prior" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">HuggingFace</a>
+    image: ./assets/img/MICCAI2026.png
+    notes: Early Accept (Top 9%)
+
+  - title: Virtual Multiplex Staining for Histological Images using a Marker-wise Conditioned Diffusion Model
+    authors: <strong>Hyun-Jic Oh</strong>, Junsik Kim, Zhiyi Shi, Yichen Wu, Yu-An Chen, Peter K. Sorger, Hanspeter Pfister, Won-Ki Jeong
+    conference_short: AAAI
+    conference: Association for the Advancement of Artificial Intelligence <strong>(AAAI)</strong>, 2026.
+    pdf: https://arxiv.org/abs/2508.14681
+    code: https://github.com/hvcl/DiffVS
+    image: ./assets/img/AAAI2026.png
+
+  - title: "S2L-CM: Scribble-supervised Nuclei Segmentation in Histopathology Images using Contrastive Regularization and Pixel-Level Multiple Instance Learning"
+    authors: "*<strong>Hyun-Jic Oh</strong>, *Seonghui Min, Won-Ki Jeong (*Equal contribution)"
+    conference_short: CIBM
+    conference: Computers in Biology and Medicine <strong>(CIBM)</strong>, 2025.
+    pdf: https://www.sciencedirect.com/science/article/pii/S0010482525006444
+    code: https://github.com/hvcl/S2L-CM
+    image: ./assets/img/CIBM2025.png
+
+  - title: Synthetic Data Augmentation using Pre-trained Diffusion Models for Long-tailed Food Image Classification
+    authors: "*GaYeon Koh, *<strong>Hyun-Jic Oh</strong>, Jeonghyun Noh, Won-Ki Jeong (*Equal contribution)"
+    conference_short: CVPRW
+    conference: 2nd MetaFood Workshop at <strong>CVPR</strong>, 2025.
+    pdf: https://openaccess.thecvf.com/content/CVPR2025W/MTF/papers/Koh_Synthetic_Data_Augmentation_using_Pre-trained_Diffusion_Models_for_Long-tailed_Food_CVPRW_2025_paper.pdf
+    code: https://github.com/kohgayeon/DiSC-DS
+    image: ./assets/img/CVPRW2025.png
+
+  - title: Co-synthesis of Histopathology Nuclei Image-Label Pairs using a Context-Conditioned Joint Diffusion Model
+    authors: "*Seonghui Min, *<strong>Hyun-Jic Oh</strong>, Won-Ki Jeong (*Equal contribution)"
+    conference_short: ECCV
+    conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2024.
+    pdf: https://arxiv.org/abs/2407.14434
+    code: https://github.com/hvcl/CoSyn-ContextCondNucAug
+    others: <a href="https://www.youtube.com/watch?v=_CWxR9CXjM8" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
+    image: ./assets/img/ECCV2024.png
+
+  - title: Controllable and Efficient Multi-Class Pathology Nuclei Data Augmentation using Text-Conditioned Diffusion Models
+    authors: <strong>Hyun-Jic Oh</strong>, Won-Ki Jeong
+    conference_short: MICCAI
+    conference: International Conference on Medical Image Computing and Computer Assisted Intervention <strong>(MICCAI)</strong>, 2024.
+    pdf: https://arxiv.org/abs/2407.14426
+    code: https://github.com/hvcl/ConNucDA
+    image: ./assets/img/MICCAI2024.png
+
+  - title: Evaluation and improvement of Segment Anything Model for interactive histopathology image segmentation
+    authors: SeungKyu Kim, <strong>Hyun-Jic Oh</strong>, Seonghui Min, Won-Ki Jeong
+    conference_short: MedAGI
+    conference: 1st International Workshop on Foundation Models for General Medical AI (MedAGI) at <strong>MICCAI</strong>, 2023.
+    pdf: https://arxiv.org/abs/2310.10493
+    image: ./assets/img/MICCAIW2023.png
+
+  - title: "DiffMix: Diffusion Model-based Data Synthesis for Nuclei Segmentation and Classification in Imbalanced Pathology Image Datasets"
+    authors: <strong>Hyun-Jic Oh</strong>, Won-Ki Jeong
+    conference_short: MICCAI
+    conference: International Conference on Medical Image Computing and Computer Assisted Intervention <strong>(MICCAI)</strong>, 2023.
+    pdf: https://arxiv.org/abs/2306.14132
+    code: https://github.com/hvcl/DiffMix
+    image: ./assets/img/MICCAI2023.png
+
+  - title: "MitoVis: A Unified Visual Analytics System for End-to-End Neuronal Mitochondria Analysis"
+    authors: JunYoung Choi, <strong>Hyun-Jic Oh</strong>, HakJun Lee, Suyeon Kim, Seok-Kyu Kwon, Won-Ki Jeong
+    conference_short: TVCG
+    conference: IEEE Transactions on Visualization and Computer Graphics <strong>(TVCG)</strong>, 2023.
+    pdf: https://ieeexplore.ieee.org/abstract/document/10005035
+    code: https://github.com/hvcl/MitoVis-public
+    image: ./assets/img/TVCG2023.png
+
+  - title: Scribble-Supervised Cell Segmentation Using Multiscale Contrastive Regularization
+    authors: <strong>Hyun-Jic Oh</strong>, Kanggeun Lee, Won-Ki Jeong
+    conference_short: ISBI
+    conference: IEEE International Symposium on Biomedical Imaging <strong>(ISBI)</strong>, 2022.
+    pdf: https://arxiv.org/abs/2306.14136
+    code: https://github.com/hvcl/ScrCont_extension
+    image: ./assets/img/ISBI2022.png

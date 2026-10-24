@@ -1,0 +1,32 @@
+# Kept for reference. Not rendered on the site right now: index.md does not
+# include _includes/projects.md. Add that include back to show this section.
+main:
+
+  - title: "DiffVS: H&E to Multiplex Immunofluorescence Translation"
+    image: ./assets/img/diffvs.png
+    content: Research collaboration with Harvard Medical School and Harvard University on virtual multiplex staining. Designed a marker-wise conditioned diffusion framework to translate routine H&E slides into multiplex immunofluorescence marker images within a single shared model, aiming to reduce the cost of multiplex imaging and enable scalable, spatially resolved biomarker analysis from standard histology.
+    pdf: https://arxiv.org/abs/2508.14681
+    code: https://github.com/hvcl/DiffVS
+
+  - title: "DiSC-DS: Long-Tailed Food Image Classification"
+    image: ./assets/img/discds.png
+    content: Developed diffusion-based food image classifiers for dietary assessment under long-tailed class distributions. Proposed a synthetic data augmentation pipeline using pre-trained diffusion models to increase minority-class diversity and improve recognition of rare foods, accepted at the CVPR 2025 MetaFood Workshop.
+    pdf: https://openaccess.thecvf.com/content/CVPR2025W/MTF/papers/Koh_Synthetic_Data_Augmentation_using_Pre-trained_Diffusion_Models_for_Long-tailed_Food_CVPRW_2025_paper.pdf
+    code: https://github.com/hvcl/DiSC_DS
+    page: https://sites.google.com/view/cvpr-metafood-2025
+
+  - title: NAFLD Histology Analysis
+    image: ./assets/img/nafld.png
+    content: Joint project with Seoul National University Hospital on non-alcoholic fatty liver disease (NAFLD) liver biopsy slides. Developed and deployed steatosis segmentation models within the VIENCE PathoView pathology platform to enable interactive visualization, quantitative measurement, and reporting of steatosis regions for clinical and research workflows.
+
+  - title: Pathology Nuclei Data Augmentation
+    image: ./assets/img/diffmix.png
+    content: Proposed DiffMix, a diffusion model-based data augmentation framework for imbalanced pathology nuclei datasets. The method generates virtual nuclei patches from semantic label maps using conditional diffusion models to balance rare nuclei classes and enrich morphology, improving both nuclei segmentation and classification performance on public benchmarks.
+    pdf: https://arxiv.org/pdf/2306.14132.pdf
+    code: https://github.com/hvcl/DiffMix
+
+  - title: PAIP 2023 Challenge Platform
+    image: ./assets/img/paip2023.png
+    content: Student contributor for the PAIP 2023 tumor cellularity prediction challenge (official ISBI 2023 challenge) aiming to develop automatic and reliable TC evaluation algorithms across pancreas and colon cancer. Built and maintained components of a pathology image analysis platform supporting tumor cell segmentation, TC estimation, and large-scale whole-slide image processing in collaboration with Seoul National University Hospital and Seoul National University.
+    page: https://2023paip.grand-challenge.org/2023paip/
+    code: https://github.com/PAIP-challenge/PAIP-2023
