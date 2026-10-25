@@ -10,6 +10,7 @@ description: Hyun-Jic Oh is an AI Research Scientist at VIENCE Inc., working on 
 canonical: https://hjoh01.github.io/
 
 # Links
+google_scholar: https://scholar.google.com/citations?user=wwcyjfAAAAAJ
 cv_link: /assets/files/CV_HyunjicOh_261021.pdf
 github_link: https://github.com/hjoh01
 linkedin: https://www.linkedin.com/in/hyun-jic-oh
@@ -40,6 +41,3 @@ exclude:
   - vendor/
   - node_modules/
   - dist/
-  # Leftover from the React site. Still holds an unpublished draft PDF,
-  # so keep it out of the generated site.
-  - src/
