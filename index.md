@@ -30,17 +30,13 @@ tissue analysis. I earned my B.S. in Biomedical Engineering from Korea Universit
 
 ## News
 
-- **[Oct. 2026]** Received the **Best Oral Presentation Award (Cum Laude)** at the KoSAIM 2026 Annual Conference.
-- **[Sept. 2026]** Presented at the **MICCAI 2026 Doctoral Symposium** in Strasbourg, France, selected for the PhD Thesis Madness oral session.
-- **[Aug. 2026]** Joined **VIENCE Inc.** as an AI Research Scientist.
-- **[Aug. 2026]** Received my **Ph.D. in Computer Science** from Korea University.
-- **[2026]** Our paper on diffusion-based augmentation for data-scarce image classification was accepted to **WACV 2027**.
-- **[2026]** Our paper on zero-shot CT super-resolution was accepted to **MICCAI 2026** as an Early Accept (top 9%).
-- **[2026]** Our paper on virtual multiplex staining was accepted to **AAAI 2026**.
-- **[2025]** Our paper on scribble-supervised nuclei segmentation was published in **Computers in Biology and Medicine**.
-- **[2025]** Our paper on long-tailed food image classification was accepted to the **2nd MetaFood Workshop at CVPR 2025**.
-- **[Mar. 2025]** Completed my visiting scholar period at the Visual Computing Group, Harvard University.
-- **[Apr. 2024]** Started as a visiting scholar at the Visual Computing Group, Harvard University.
+<ul style="margin:0 0 10px;">
+{% for item in site.data.news.main limit: 5 %}
+  <li style="margin-bottom:6px;"><strong>[{{ item.date }}]</strong> {{ item.content }}</li>
+{% endfor %}
+</ul>
+
+<p style="margin:0 0 20px;"><a href="{{ '/news/' | relative_url }}">See all news &rarr;</a></p>
 
 {% include_relative _includes/publications.md %}
 

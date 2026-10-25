@@ -10,14 +10,14 @@ description: Hyun-Jic Oh is an AI Research Scientist at VIENCE Inc., working on 
 canonical: https://hjoh01.github.io/
 
 # Links
-cv_link: assets/files/CV_HyunjicOh_261021.pdf
+cv_link: /assets/files/CV_HyunjicOh_261021.pdf
 github_link: https://github.com/hjoh01
 linkedin: https://www.linkedin.com/in/hyun-jic-oh
 
 # Images
-avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.ico
-favicon_dark: ./assets/img/favicon.ico
+avatar: /assets/img/avatar.png
+favicon: /assets/img/favicon.ico
+favicon_dark: /assets/img/favicon.ico
 
 # Footnote
 enable_footnote: true

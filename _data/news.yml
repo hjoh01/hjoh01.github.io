@@ -1,0 +1,37 @@
+# Single source for the News list.
+# The homepage shows the most recent few; /news/ shows everything.
+# Newest first. `content` is rendered as HTML.
+main:
+
+  - date: Oct. 2026
+    content: Received the <strong>Best Oral Presentation Award (Cum Laude)</strong> at the KoSAIM 2026 Annual Conference.
+
+  - date: Sept. 2026
+    content: Presented at the <strong>MICCAI 2026 Doctoral Symposium</strong> in Strasbourg, France, selected for the PhD Thesis Madness oral session.
+
+  - date: Aug. 2026
+    content: Joined <strong>VIENCE Inc.</strong> as an AI Research Scientist.
+
+  - date: Aug. 2026
+    content: Received my <strong>Ph.D. in Computer Science</strong> from Korea University.
+
+  - date: 2026
+    content: Our paper on diffusion-based augmentation for data-scarce image classification was accepted to <strong>WACV 2027</strong>.
+
+  - date: 2026
+    content: Our paper on zero-shot CT super-resolution was accepted to <strong>MICCAI 2026</strong> as an Early Accept (top 9%).
+
+  - date: 2026
+    content: Our paper on virtual multiplex staining was accepted to <strong>AAAI 2026</strong>.
+
+  - date: 2025
+    content: Our paper on scribble-supervised nuclei segmentation was published in <strong>Computers in Biology and Medicine</strong>.
+
+  - date: 2025
+    content: Our paper on long-tailed food image classification was accepted to the <strong>2nd MetaFood Workshop at CVPR 2025</strong>.
+
+  - date: Mar. 2025
+    content: Completed my visiting scholar period at the Visual Computing Group, Harvard University.
+
+  - date: Apr. 2024
+    content: Started as a visiting scholar at the Visual Computing Group, Harvard University.
