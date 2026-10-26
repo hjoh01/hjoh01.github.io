@@ -60,7 +60,7 @@ main:
 
   - title: Evaluation and improvement of Segment Anything Model for interactive histopathology image segmentation
     authors: SeungKyu Kim, <strong>Hyun-Jic Oh</strong>, Seonghui Min, Won-Ki Jeong
-    conference_short: MedAGI
+    conference_short: MICCAIW
     conference: 1st International Workshop on Foundation Models for General Medical AI (MedAGI) at <strong>MICCAI</strong>, 2023.
     pdf: https://arxiv.org/abs/2310.10493
     image: /assets/img/MICCAIW2023.png

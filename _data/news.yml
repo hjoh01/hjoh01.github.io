@@ -33,5 +33,23 @@ main:
   - date: Mar. 2025
     content: Completed my visiting scholar period at the Visual Computing Group, Harvard University.
 
+  - date: Jul. 2024
+    content: Our paper on co-synthesis of nuclei image-label pairs was accepted to <strong>ECCV 2024</strong>.
+
+  - date: Jun. 2024
+    content: Our paper on text-conditioned pathology nuclei augmentation was accepted to <strong>MICCAI 2024</strong>.
+
   - date: Apr. 2024
     content: Started as a visiting scholar at the Visual Computing Group, Harvard University.
+
+  - date: Jun. 2023
+    content: Our paper on diffusion-based data synthesis for imbalanced pathology datasets (DiffMix) was accepted to <strong>MICCAI 2023</strong>.
+
+  - date: Jun. 2023
+    content: Our paper evaluating the Segment Anything Model for interactive histopathology segmentation was accepted to the <strong>MICCAI 2023 MedAGI Workshop</strong>.
+
+  - date: Dec. 2022
+    content: Our paper on MitoVis, a visual analytics system for neuronal mitochondria analysis, was accepted to <strong>IEEE TVCG</strong>.
+
+  - date: Feb. 2022
+    content: Our paper on scribble-supervised cell segmentation was accepted to <strong>IEEE ISBI 2022</strong>.
