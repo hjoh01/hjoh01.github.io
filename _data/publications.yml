@@ -4,6 +4,7 @@ main:
     authors: "*<strong>Hyun-Jic Oh</strong>, *GaYeon Koh, Won-Ki Jeong (*Equal contribution)"
     conference_short: WACV
     conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2027.
+    code: https://github.com/hvcl/MGRAttn-RNO
     image: /assets/img/WACV2027.png
     notes: Round 1 Accept
 

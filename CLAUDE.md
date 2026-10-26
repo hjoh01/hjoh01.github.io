@@ -56,11 +56,14 @@ authoritative, Overleaf is. Re-download before editing it locally.
 Raise these with the user when the date has passed, even if they ask about
 something else.
 
-- **Apr. 2027** — the Stanford postdoc starts. Move it out of
-  `_data/news.yml` into the Education & Experience list in `index.md`, update
-  `position` and `affiliation` in `_config.yml` (currently VIENCE Inc.), and
-  move it into Experience on the CV. It is announced in News only until then,
-  deliberately.
+- **Apr. 2027** — the Stanford postdoc starts (Department of Pathology; offer
+  accepted Aug. 2026). It is **not announced on the site**: the entry sits
+  commented out at the top of `_data/news.yml`, held back so an early
+  announcement does not narrow the offers that might still come in. When the
+  user decides to announce, uncomment it. At the move itself, put it in the
+  Education & Experience list in `index.md`, update `position` and
+  `affiliation` in `_config.yml` (currently VIENCE Inc.), and add it to
+  Experience on the CV.
 
 ## Conventions
 
