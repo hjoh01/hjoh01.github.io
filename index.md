@@ -5,7 +5,8 @@ layout: homepage
 ## About Me
 
 I am an AI Research Scientist at [VIENCE Inc.](https://vience.io/), where I develop deep learning
-models for VIENCE PathoView, a pathology image analysis platform. I received my Ph.D. in Computer
+models and algorithms for cell quantification in VIENCE PathoView, a pathology image analysis
+platform. I received my Ph.D. in Computer
 Science from [HVCL](https://hvcl.korea.ac.kr/) at Korea University in August 2026, advised by
 Prof. Won-Ki Jeong.
 
@@ -23,7 +24,7 @@ tissue analysis. I earned my B.S. in Biomedical Engineering from Korea Universit
 
 ## Education &amp; Experience
 
-- **[Aug. 2026 &ndash; Present]** AI Research Scientist, VIENCE Inc., Seoul, South Korea
+- **[Aug. 2026 &ndash; Present]** AI Research Scientist, VIENCE Inc., Seoul, South Korea &mdash; cell quantification models for computational pathology
 - **[Mar. 2021 &ndash; Aug. 2026]** Ph.D. in Computer Science, Korea University (Advisor: Won-Ki Jeong)
 - **[Apr. 2024 &ndash; Mar. 2025]** Visiting Scholar, Visual Computing Group, Harvard University, Cambridge, MA, USA
 - **[Mar. 2014 &ndash; Feb. 2021]** B.S. in Biomedical Engineering, Korea University

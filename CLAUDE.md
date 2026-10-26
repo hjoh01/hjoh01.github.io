@@ -51,6 +51,17 @@ account: edit and compile in Overleaf, download the PDF, replace the file in
 the LaTeX source may sit in `Desktop\Academic_CV___Hyunjic_Oh\` — it is not
 authoritative, Overleaf is. Re-download before editing it locally.
 
+## Scheduled changes
+
+Raise these with the user when the date has passed, even if they ask about
+something else.
+
+- **Apr. 2027** — the Stanford postdoc starts. Move it out of
+  `_data/news.yml` into the Education & Experience list in `index.md`, update
+  `position` and `affiliation` in `_config.yml` (currently VIENCE Inc.), and
+  move it into Experience on the CV. It is announced in News only until then,
+  deliberately.
+
 ## Conventions
 
 - **Asset paths start with `/`.** The theme writes `./assets/...`, which 404s
