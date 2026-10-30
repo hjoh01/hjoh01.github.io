@@ -8,6 +8,7 @@
   <li>European Conference on Computer Vision (ECCV), 2026</li>
   <li>Conference on Neural Information Processing Systems (NeurIPS), 2026</li>
   <li>Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023&ndash;2026</li>
+  <li>Information Processing in Medical Imaging (IPMI), 2027</li>
   <li>IEEE International Symposium on Biomedical Imaging (ISBI), 2027</li>
   <li>MICCAI MedAGI Workshop, 2023&ndash;2024, 2026</li>
 </ul>
