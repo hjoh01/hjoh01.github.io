@@ -25,8 +25,8 @@ tissue analysis. I earned my B.S. in Biomedical Engineering from Korea Universit
 ## Education &amp; Experience
 
 - **[Aug. 2026 &ndash; Present]** AI Research Scientist, VIENCE Inc., Seoul, South Korea &mdash; cell quantification models for computational pathology
-- **[Mar. 2021 &ndash; Aug. 2026]** Ph.D. in Computer Science, Korea University (Advisor: Won-Ki Jeong)
-- **[Apr. 2024 &ndash; Mar. 2025]** Visiting Scholar, Visual Computing Group, Harvard University, Cambridge, MA, USA
+- **[Mar. 2021 &ndash; Aug. 2026]** Ph.D. in Computer Science, Korea University (Advisor: [Won-Ki Jeong](https://hvcl.korea.ac.kr/?page_id=359))
+- **[Apr. 2024 &ndash; Mar. 2025]** Visiting Scholar, Visual Computing Group, Harvard University, Cambridge, MA, USA (Host: [Hanspeter Pfister](https://seas.harvard.edu/person/hanspeter-pfister))
 - **[Mar. 2014 &ndash; Feb. 2021]** B.S. in Biomedical Engineering, Korea University
 
 ## News
