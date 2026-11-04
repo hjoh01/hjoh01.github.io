@@ -7,6 +7,7 @@
   <li>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</li>
   <li>European Conference on Computer Vision (ECCV), 2026</li>
   <li>Conference on Neural Information Processing Systems (NeurIPS), 2026</li>
+  <li>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2027</li>
   <li>Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023&ndash;2026</li>
   <li>Information Processing in Medical Imaging (IPMI), 2027</li>
   <li>IEEE International Symposium on Biomedical Imaging (ISBI), 2027</li>
