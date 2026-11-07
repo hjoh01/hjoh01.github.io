@@ -6,6 +6,7 @@ main:
     conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2027.
     pdf: https://arxiv.org/abs/2611.04242
     code: https://github.com/hvcl/MGRAttn-RNO
+    page: https://hvcl.github.io/MGRAttn-RNO/
     image: /assets/img/WACV2027.png
     notes: Round 1 Accept
 
